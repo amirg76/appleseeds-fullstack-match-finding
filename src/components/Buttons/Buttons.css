@@ -1,0 +1,19 @@
+.game-func-button {
+  width: 4vw;
+  height: 7vh;
+  border-radius: 50%;
+}
+.button-icon-ok {
+  width: 4.4vw;
+  height: 9vh;
+  background: url("/public/assets/images/ok.png") no-repeat center center /
+    cover;
+  border: none;
+}
+.button-icon-not-ok {
+  width: 4vw;
+  height: 9vh;
+  background: url("/public/assets/images/not-ok.png") no-repeat center center /
+    cover;
+  border: none;
+}

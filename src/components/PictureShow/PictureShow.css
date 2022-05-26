@@ -1,0 +1,14 @@
+.picture-main {
+  width: 40vw;
+  height: 25vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-animal {
+  width: 40vw;
+  height: 22vw;
+}
