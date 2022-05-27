@@ -10,5 +10,10 @@
 
 .pic-animal {
   width: 40vw;
-  height: 22vw;
+  height: 20vw;
+}
+@media (max-width: 1024px) {
+  .picture-main h1 {
+    font-size: 1.7vw;
+  }
 }

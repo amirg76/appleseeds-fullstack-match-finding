@@ -1,0 +1,26 @@
+.popup-continer {
+  position: absolute;
+  top: 100;
+  width: 60vw;
+  height: 80vh;
+  background-color: gray;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-card {
+  width: 30vw;
+  height: 40vh;
+  background-color: white;
+  border: 5px solid lightgray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  color: blue;
+}
+.popup-hidden {
+  display: none;
+}

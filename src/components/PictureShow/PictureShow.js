@@ -19,14 +19,18 @@ class PictureShow extends React.Component {
   constructor(props) {
     super(props);
   }
+  handlePic = () => {
+    if (this.props.pictureNum < data.length) return this.props.pictureNum;
+    if (!this.props.isfinish) this.props.finishGame();
+  };
   render() {
     return (
       <div className="picture-main">
         <img
           className="pic-animal"
-          src={`./assets/images/animalPic/${data[0]}.jpg`}
+          src={`./assets/images/animalPic/${data[this.handlePic()]}.jpg`}
         ></img>
-        <h1>{data[0]}</h1>
+        <h1>{data[this.handlePic()]}</h1>
       </div>
     );
   }

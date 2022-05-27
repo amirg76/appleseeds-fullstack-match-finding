@@ -1,0 +1,39 @@
+/* @media (max-width: 2600px) {
+  .counter-wrap {
+    width: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .counter-icon-smile {
+    width: 4vw;
+    height: 6vh;
+    background: url("/public/assets/images/smile.jpg") no-repeat center center /
+      cover;
+  }
+  .counter-icon-not-ok {
+    width: 3vw;
+    height: 5vh;
+    background: url("/public/assets/images/no-smile.png") no-repeat center
+      center / cover;
+  }
+  .counter-result {
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  .count-smile {
+    color: green;
+  }
+  .count-no-smile {
+    color: red;
+  }
+}
+@media (max-width: 2600px) {
+  .counter-icon-not-ok {
+    width: 3vw;
+    height: 4vh;
+    background: url("/public/assets/images/no-smile.png") no-repeat center
+      center / cover;
+  }
+} */

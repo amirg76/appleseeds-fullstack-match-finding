@@ -1,9 +1,11 @@
 .counter-wrap {
   width: 7vw;
+  height: 7vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .counter-icon-smile {
   width: 4vw;
   height: 6vh;
@@ -11,8 +13,8 @@
     cover;
 }
 .counter-icon-not-ok {
-  width: 3vw;
-  height: 6.5vh;
+  width: 4vw;
+  height: 8vh;
   background: url("/public/assets/images/no-smile.png") no-repeat center center /
     cover;
 }

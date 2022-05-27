@@ -9,13 +9,16 @@ class Buttons extends React.Component {
       <>
         {this.props.id === "not-ok" ? (
           <>
-            <button className="button-icon-ok"></button>
+            <button
+              className="button-icon-not-ok"
+              onClick={() => this.props.handleClick(this.props.id)}
+            ></button>
           </>
         ) : (
           <>
             <button
-              className="button-icon-not-ok"
-              onClick={this.props.handleClick}
+              className="button-icon-ok"
+              onClick={() => this.props.handleClick(this.props.id)}
             ></button>
           </>
         )}
