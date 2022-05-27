@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import GameFuncCounter from "./components/GameFuncCounter/GameFuncCounter";
 import PictureShow from "./components/PictureShow/PictureShow";
 import GameFuncBtn from "./components/GameFuncBtn/GameFuncBtn";
 import PopUp from "./components/PopUp/PopUp";
-import { render } from "@testing-library/react";
+// import { render } from "@testing-library/react";
 
 class App extends React.Component {
   constructor(props) {

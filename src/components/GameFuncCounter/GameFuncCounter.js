@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./GameFuncCounter.css";
+import "./GameFuncCounter.css";
 import Counter from "../Counter/Counter";
 
 class GameFunc extends React.Component {

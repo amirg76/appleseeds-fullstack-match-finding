@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./PictureShow.css";
+import "./PictureShow.css";
 
 const data = [
   "animal_animals_aquarium",
@@ -16,9 +16,6 @@ const data = [
 ];
 
 class PictureShow extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   handlePic = () => {
     if (this.props.pictureNum < data.length) return this.props.pictureNum;
     if (!this.props.isfinish) this.props.finishGame();
@@ -28,6 +25,7 @@ class PictureShow extends React.Component {
       <div className="picture-main">
         <img
           className="pic-animal"
+          alt="aaa"
           src={`./assets/images/animalPic/${data[this.handlePic()]}.jpg`}
         ></img>
         <h1>{data[this.handlePic()]}</h1>

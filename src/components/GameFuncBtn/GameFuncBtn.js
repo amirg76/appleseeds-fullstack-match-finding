@@ -1,15 +1,12 @@
 import React from "react";
-import styles from "./GameFuncBtn.css";
+import "./GameFuncBtn.css";
 import Buttons from "../Buttons/Buttons";
 
 class GameFuncBtn extends React.Component {
   handleClick = (id) => {
     console.log(id);
   };
-  // rendeCounter = () => {
-  //   return {`<Counter id="smile" smileValue={this.state.countSmile} />
-  //   <Counter id="notSmile" noSmileValue={this.state.countNoSmile} />`}
-  // };
+
   render() {
     return (
       <>

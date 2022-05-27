@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "./Counter.css";
-import styles1 from "./StyleMobile.css";
+import "./Counter.css";
+import "./StyleMobile.css";
 class Counter extends React.Component {
   // handleCounter() {
   //   console.log(this.props.clickSum);

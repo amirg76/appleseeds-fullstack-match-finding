@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Buttons.css";
+import "./Buttons.css";
 
 // import PictureShow from "../PictureShow/PictureShow";
 
